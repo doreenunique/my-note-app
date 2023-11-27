@@ -1,6 +1,7 @@
 const Note = require("../models/note");
 
-// Create a new note
+// Create a new note.
+//commit i guess
 const createNote = async (req, res) => {
   try {
     const { title, content } = req.body;
@@ -18,6 +19,7 @@ const createNote = async (req, res) => {
   }
 };
 
+//for revisions
 // Get all notes for a specific user
 const getAllNotes = async (req, res) => {
   try {
